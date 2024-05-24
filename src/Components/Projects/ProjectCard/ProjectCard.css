@@ -1,0 +1,104 @@
+.flip-card {
+    background-color: transparent;
+    width: 600px;
+    height: 300px;
+    perspective: 1000px;
+
+    margin: 20px;
+    /* border-radius: 15px; */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    /* mycss */
+}
+
+.flip-card-front {
+    background-color: transparent;
+    color: black;
+    object-fit: contain;
+}
+
+.flip-card-front img {
+    width: 600px;
+    height: 300px;
+}
+
+.flip-card-back {
+    background-color: #333333;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back h2,
+h3 {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.flip-card-back p {
+    font-size: 21px;
+}
+
+
+
+.flip-card-back ul {
+    padding-left: 3rem;
+}
+
+.flip-card-back .github-link {
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+    left: 50%;
+    bottom: 0;
+}
+
+.github-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* image overlay */
+.flip-card-front-img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.flip-card-front-img-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    transform: translate(0%, -100%);
+    background-color: #00000093;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}

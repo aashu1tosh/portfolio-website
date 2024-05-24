@@ -1,0 +1,15 @@
+.main-container {
+    width: 90vw;
+    /* background-color: var(--primary-color); */
+    margin: 0 auto;
+    height: auto;
+}
+
+.title {
+    color: red;
+    font-size: 48px;
+    min-height: 52px;
+    /* text-decoration: underline; */
+    text-align: center;
+    margin: 15px;
+}

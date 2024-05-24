@@ -1,0 +1,14 @@
+:root {
+    --primary-color: rgba(255, 255, 255, 0.932);
+    --secondary-color: #242424;
+    --navbar-color: rgba(216, 31, 31, 0.603);
+    color-scheme: dark light;
+    color: var(--secondary-color);
+    background-color: var(--primary-color) !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

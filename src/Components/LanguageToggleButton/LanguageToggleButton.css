@@ -1,0 +1,10 @@
+#language-toggle-button {
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+#language-toggle-button img {
+    object-fit: contain;
+    height: 25px;
+    width: 25px;
+}

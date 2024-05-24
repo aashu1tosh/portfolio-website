@@ -1,0 +1,68 @@
+.skills {
+    margin-top: 20px;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.skill {
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 20px;
+    border: 2px solid green;
+    padding: 50px;
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+}
+
+.skill:hover {
+    /* background-color: yellowgreen; */
+    filter: drop-shadow(0 0 3em #d32e05);
+}
+
+.skill img {
+    height: 120px;
+    width: auto;
+    border-radius: 12px;
+}
+
+.skill p {
+    margin-top: 10px;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo-react {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+@media (max-width: 1000px) {
+    .skills-content {
+        flex-wrap: nowrap;
+        overflow-y: hidden;
+        justify-content: flex-start;
+    }
+}

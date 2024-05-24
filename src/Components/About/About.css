@@ -1,0 +1,9 @@
+.about {
+    margin-top: 20px;
+}
+
+.about p {
+    font-size: 21px;
+    padding: 10px;
+    text-align: justify;
+}

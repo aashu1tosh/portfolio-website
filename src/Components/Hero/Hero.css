@@ -1,0 +1,60 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    /* Set height to cover the viewport */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hero .hero-img img {
+    height: 100vh;
+    width: fit-content;
+}
+
+.hero .hero-img {
+    position: absolute;
+    /* display: flex; */
+
+}
+
+.hero .hero-img .background-circle {
+    background-color: var(--secondary-color);
+    /* background-color: black; */
+    width: 50vh;
+    height: 50vh;
+    position: absolute;
+    z-index: -2;
+    clip-path: circle();
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.hero .hero-right {
+    color: red;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+    z-index: 1;
+    font-size: 21px;
+}
+
+.hero .hero-right .hero-rc {
+    text-overflow: clip;
+}
+
+
+@media (max-width: 1750px) {
+    .hero .hero-right {
+        align-items: center;
+    }
+
+    .hero .hero-right .hero-rc {
+        color: orangered;
+    }
+}
