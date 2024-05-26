@@ -22,26 +22,29 @@ const Resume = () => {
             <h3>{portfolioLabel?.education[language]}</h3>
           </div>
           <div className="education-detail">
-            <div className="education-box">
+            <div data-aos="zoom-in-up" data-aos-once="true" className="education-box">
               <p>{portfolioLabel?.educationBEDate[language]}</p>
               <h4>{portfolioLabel?.educationBE[language]}</h4>
               <p>{portfolioLabel?.educationBEDescription[language]}</p>
               <p>{portfolioLabel?.educationBEInstitue[language]}</p>
             </div>
 
-            <div className="education-box">
+            <div data-aos="zoom-in-up"
+              data-aos-once="true"
+              className="education-box">
               <p>{portfolioLabel?.educationp2Date[language]}</p>
               <h4>{portfolioLabel?.educationp2[language]}</h4>
               <p>{portfolioLabel?.educationp2Description[language]}</p>
               <p>{portfolioLabel?.educationp2Institue[language]}</p>
             </div>
 
-            <div className="education-box">
+            <div data-aos="zoom-in-up" data-aos-once="true" className="education-box">
               <p>{portfolioLabel?.educationSlcDate[language]}</p>
               <h4>{portfolioLabel?.educationSlc[language]}</h4>
               <p>{portfolioLabel?.educationSlcDescription[language]}</p>
               <p>{portfolioLabel?.educationSlcInstitue[language]}</p>
             </div>
+            
           </div>
         </div>
 
@@ -51,7 +54,7 @@ const Resume = () => {
             <h3>{portfolioLabel.experience[language]}</h3>
           </div>
           <div className="education-detail">
-            <div className="education-box">
+            <div data-aos="zoom-in-up" data-aos-once="true" className="education-box">
               <p>{portfolioLabel?.experience1Date[language]}</p>
               <h4>{portfolioLabel?.experience1Role[language]}</h4>
               <p>{portfolioLabel?.experience1Description[language]}</p>

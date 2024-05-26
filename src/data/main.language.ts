@@ -40,11 +40,11 @@ export const portfolioLabel: LabelType = {
     },
 
     aboutDescription: {
-        en: "I'm Aashutosh Parajuli, a Computer Engineering graduate working as a software developer. I specialize in DSA, OOP, DBMS, and SDLC, and I’m skilled in Python, JavaScript, TypeScript, HTML, CSS, Linux, MySQL, MongoDB, Node.js, and React. I’m passionate about coding and problem-solving, and I’m known for being a funny and happy guy.",
+        en: "I'm Aashutosh Parajuli, a Computer Engineering graduate working as a software developer. I specialize in DSA, OOP, DBMS, and SDLC, and I’m skilled in Python, JavaScript, TypeScript, HTML, CSS, Linux, MySQL, MongoDB, Node.js, and React. I’m passionate about coding and problem-solving, and I’m also known for being a funny and happy guy.",
         ne: "म आशुतोष पराजुली हुँ, सफ्टवेयर विकासकर्ताको रूपमा काम गर्दै कम्प्युटर इन्जिनियरिङमा स्नातक। म DSA, OOP, DBMS, र SDLC मा विशेषज्ञ छु, र म Python, JavaScript, TypeScript, HTML, CSS, Linux, MySQL, MongoDB, Node.js, र प्रतिक्रियामा निपुण छु। म कोडिङ र समस्या-समाधानको बारेमा भावुक छु, र म एक हास्यास्पद र खुसी व्यक्तिको रूपमा परिचित छु।"
     },
     resumeDescription: {
-        en: "My skill is combining technical know-how with creativity to create smooth digital experiences. My passion for web development arises from my never-ending curiosity and dedication to lifelong learning, which allow me to create projects that are both innovative and user-focused.",
+        en: "My skill is combining technical knowledge with creativity to create smooth digital experiences. My passion for web development arises from my never-ending curiosity and dedication to lifelong learning, which allow me to create projects that are both innovative and user-focused.",
         ne: "मेरो सीपले सहज डिजिटल अनुभवहरू सिर्जना गर्न प्राविधिक ज्ञान-कसरी रचनात्मकताको संयोजन गर्दैछ। वेब विकासको लागि मेरो जुनून मेरो कहिल्यै अन्त्य नहुने जिज्ञासा र आजीवन सिकाइको लागि समर्पणबाट उत्पन्न हुन्छ, जसले मलाई नवीन र प्रयोगकर्ता-केन्द्रित दुवै परियोजनाहरू सिर्जना गर्न अनुमति दिन्छ।"
     },
     education: {
@@ -104,12 +104,12 @@ export const portfolioLabel: LabelType = {
         ne: "अनुभव"
     },
     experience1Date: {
-        en: "March 2023 - ",
-        ne: "असार २०७२"
+        en: "March 2023 - Feburary 2024",
+        ne: "श्रावण २०८० - माघ २०८०"
     },
     experience1Role: {
         en: "System Administrator",
-        ne: "१० औं कक्षा (एसएलसी)"
+        ne: "प्रणाली प्रशासक"
     },
     experience1Description: {
         en: "At Avaya, I managed Azure Active Directory, ensuring secure and efficient access control. I also maintained firewall settings to safeguard network integrity. Additionally, I engaged in JavaScript coding to enhance web application functionality.",
@@ -119,7 +119,23 @@ export const portfolioLabel: LabelType = {
         en: "Avaya Machine",
         ne: "अवाया मेसिन"
     },
+    yourName: {
+        en: "Your Name",
+        ne: "तिम्रो नाम"
+    },
+    yourEmail: {
+        en: "Your email",
+        ne: "तिम्रो इमेल"
+    },
+    yourMessage: {
+        en: "Your Message",
+        ne: "तिम्रो सन्देश"
+    },
 
+    submit: {
+        en: "Submit",
+        ne: "पेश गर्नुहोस्"
+    },
     footer: {
         en: 'Designed and Devloped by Aashutosh Parajuli',
         ne: 'आशुतोष पराजुली द्वारा डिजाइन र विकास'

@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
             <div className="nav-middle">
                 <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-                    <li><Link to='hero' smooth={true} offset={-180} duration={500} onClick={toggleMenu} >{portfolioLabel?.about[language]}</Link> </li>
+                    <li><Link to='about' smooth={true} offset={-180} duration={500} onClick={toggleMenu} >{portfolioLabel?.about[language]}</Link> </li>
                     <li><Link to='skills' smooth={true} offset={-180} duration={500} onClick={toggleMenu} >{portfolioLabel?.skills[language]}</Link></li>
                     <li><Link to='resume' smooth={true} offset={-180} duration={500} onClick={toggleMenu} >{portfolioLabel?.resume[language]}</Link></li>
                     <li><Link to='project' smooth={true} offset={-180} duration={500} onClick={toggleMenu} >{portfolioLabel?.projects[language]}</Link></li>

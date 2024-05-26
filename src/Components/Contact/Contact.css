@@ -43,4 +43,5 @@
     outline: 0;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    width: 120px;
 }

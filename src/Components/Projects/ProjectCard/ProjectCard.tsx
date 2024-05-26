@@ -4,7 +4,12 @@ import './ProjectCard.css'
 const ProjectCard = (props: { title: string, language: string, propsImage: string, githubLink: string, list: string[] }) => {
     const { title, language, githubLink, list, propsImage } = props
     return (
-        <div className="flip-card">
+        <div className="flip-card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos-once="true">
+
             <div className="flip-card-inner">
                 <div className="flip-card-front">
                     <div className="flip-card-front-img-container">

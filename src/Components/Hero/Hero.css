@@ -1,5 +1,5 @@
 .hero {
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     /* Set height to cover the viewport */
     min-height: 100vh;
@@ -10,13 +10,12 @@
 
 .hero .hero-img img {
     height: 100vh;
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 .hero .hero-img {
     position: absolute;
-    /* display: flex; */
-
+    object-fit: contain;
 }
 
 .hero .hero-img .background-circle {
@@ -42,11 +41,14 @@
     align-items: last baseline;
     z-index: 1;
     font-size: 21px;
+
 }
 
 .hero .hero-right .hero-rc {
     text-overflow: clip;
 }
+
+
 
 
 @media (max-width: 1750px) {
@@ -55,6 +57,6 @@
     }
 
     .hero .hero-right .hero-rc {
-        color: orangered;
+        backdrop-filter: blur(10px);
     }
 }

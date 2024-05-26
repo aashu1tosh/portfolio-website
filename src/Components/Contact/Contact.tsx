@@ -33,12 +33,12 @@ const Contact = () => {
 
             <div className="contact-content">
                 <form onSubmit={onSubmit}>
-                    <input type="text" name='name' placeholder='Your Name' required />
-                    <input type="email" placeholder='Your Email Address' required />
-                    <textarea name='message' placeholder='Your message' required />
-                    <button type='submit' className=''>Submit</button>
+                    <input type="text" name='name' placeholder={portfolioLabel?.yourName[language]} required />
+                    <input type="email" placeholder={portfolioLabel?.yourEmail[language]} required />
+                    <textarea name='message' placeholder={portfolioLabel?.yourMessage[language]} required />
+                    <button type='submit' className=''>{portfolioLabel.submit[language]}</button>
                 </form>
-                <span>{result}</span>
+                <span style={{ textAlign: "center", color: "red" }}>{result}</span>
             </div>
         </div>
     )

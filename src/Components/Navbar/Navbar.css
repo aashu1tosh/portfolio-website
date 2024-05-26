@@ -38,8 +38,12 @@
     display: inline-block;
     font-size: 1.5rem;
     margin-right: 15px;
-    min-width: 78px;
+    /* min-width: 78px; */
     cursor: pointer;
+}
+
+.nav-middle ul li:hover {
+    color: rgba(7, 219, 7, 0.932)
 }
 
 .nav-full .nav-right {
@@ -70,6 +74,10 @@
         align-items: center;
         /* Center horizontally */
         transition: 0.5s;
+    }
+
+    .nav-middle ul li {
+        margin: 20px 0px;
     }
 
     .hide-mobile-menu {

@@ -11,7 +11,7 @@ const Projects = () => {
     return (
         <div className='project-section'>
             <h2 className='title'>{portfolioLabel.projects[language]}</h2>
-            <p id='project-desc'>Some of my Solo Projects.</p>
+            {/* <p id='project-desc'>Some of my Solo Projects.</p> */}
 
             <div className="projects">
                 <ProjectCard
