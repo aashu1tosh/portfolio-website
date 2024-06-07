@@ -1,7 +1,6 @@
-.hero {
+/* .hero {
     width: 99vw;
     height: 100vh;
-    /* Set height to cover the viewport */
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,7 +9,6 @@
 
 .hero .hero-img img {
     height: 100vh;
-    /* width: fit-content; */
 }
 
 .hero .hero-img {
@@ -20,7 +18,6 @@
 
 .hero .hero-img .background-circle {
     background-color: var(--secondary-color);
-    /* background-color: black; */
     width: 50vh;
     height: 50vh;
     position: absolute;
@@ -29,7 +26,54 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+
+.hero {
+    width: 99vw;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 }
+
+.hero .hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero .hero-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/thin.png') no-repeat center center;
+    background-size: contain;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.hero .background-circle {
+    background-color: var(--secondary-color);
+    width: 50vh;
+    height: 50vh;
+    position: absolute;
+    z-index: 0;
+    clip-path: circle();
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s;
+}
+
 
 
 .hero .hero-right {

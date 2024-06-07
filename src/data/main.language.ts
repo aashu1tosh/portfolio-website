@@ -104,8 +104,8 @@ export const portfolioLabel: LabelType = {
         ne: "अनुभव"
     },
     experience1Date: {
-        en: "March 2023 - Feburary 2024",
-        ne: "श्रावण २०८० - माघ २०८०"
+        en: "May 2023 - April 2024",
+        ne: "वैशाख २०८० - चैत २०८०"
     },
     experience1Role: {
         en: "System Administrator",
@@ -118,6 +118,23 @@ export const portfolioLabel: LabelType = {
     experience1Company: {
         en: "Avaya Machine",
         ne: "अवाया मेसिन"
+    },
+
+    experience2Date: {
+        en: "May 2024 - Current",
+        ne: "वैशाख २०८१ - वर्तमान"
+    },
+    experience2Role: {
+        en: "Software Engineer Internship",
+        ne: "सफ्टवेयर इन्जिनियर इन्टर्नशिप"
+    },
+    experience2Description: {
+        en: "I acquired front-end development skills with Reactjs at Cliffbyte.I also used PostgreSQL and nosql Mongo DB to manage data storage effectively and Node.js with Express to construct robust and secure backend applications with REST APIs.",
+        ne: "Cliffbyte मा, मैले Reactjs सिकें। मैले नोड र एक्सप्रेससँग ब्याकएन्ड अनुप्रयोगहरू पनि विकास गरें, र PostgreSQL सँग डाटा भण्डारण व्यवस्थित गरें"
+    },
+    experience2Company: {
+        en: "CliffByte",
+        ne: "क्लिफबाइट"
     },
     yourName: {
         en: "Your Name",

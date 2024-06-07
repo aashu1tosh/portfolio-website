@@ -1,5 +1,4 @@
 import { useContext } from 'react'
-import { image } from '../../config/constant/image'
 import { LanguageContext } from '../../context/LanguageContext'
 import { portfolioLabel } from '../../data/main.language'
 import Background from '../Background/Background'
@@ -10,10 +9,17 @@ const Hero = () => {
     return (
         <div className='hero'>
             <Background />
-            <div className="hero-img">
-                <img src={image?.me} alt="" />
+            {/* <div className="hero-img">
+                <img src={image?.me} alt="" style={{ backgroundAttachment: 'fixed' }} />
+
                 <div className="background-circle">
                 </div>
+
+                
+            </div> */}
+
+            <div className="hero-img">
+                <div className="background-circle"></div>
             </div>
 
             <div data-aos="fade-down-left"

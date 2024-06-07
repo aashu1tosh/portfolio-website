@@ -22,7 +22,7 @@ const Skills = () => {
                 </div>
                 <div className="skill">
                     <img src={image?.git} alt="3" />
-                    <p>Git Version Control</p>
+                    <p>Git</p>
                 </div>
                 <div className="skill" >
                     <img src={image?.linux} alt="4" />

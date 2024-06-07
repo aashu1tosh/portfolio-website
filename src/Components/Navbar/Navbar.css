@@ -19,6 +19,9 @@
 
 .nav-left {
     min-width: 203px;
+    padding-left: 20px;
+    cursor: pointer;
+
     /* min-height: 65px; */
 }
 
