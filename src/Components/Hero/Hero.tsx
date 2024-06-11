@@ -8,7 +8,6 @@ const Hero = () => {
     const { language } = useContext(LanguageContext)
     return (
         <div className='hero'>
-            <Background />
             {/* <div className="hero-img">
                 <img src={image?.me} alt="" style={{ backgroundAttachment: 'fixed' }} />
 

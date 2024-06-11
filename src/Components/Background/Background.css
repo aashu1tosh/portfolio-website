@@ -1,5 +1,5 @@
 .circles {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -14,7 +14,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: #e06e6e;
+    background: #ebabab;
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
