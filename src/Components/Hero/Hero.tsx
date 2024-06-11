@@ -1,22 +1,12 @@
 import { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageContext'
 import { portfolioLabel } from '../../data/main.language'
-import Background from '../Background/Background'
 import './Hero.css'
 
 const Hero = () => {
     const { language } = useContext(LanguageContext)
     return (
         <div className='hero'>
-            {/* <div className="hero-img">
-                <img src={image?.me} alt="" style={{ backgroundAttachment: 'fixed' }} />
-
-                <div className="background-circle">
-                </div>
-
-                
-            </div> */}
-
             <div className="hero-img">
                 <div className="background-circle"></div>
             </div>
