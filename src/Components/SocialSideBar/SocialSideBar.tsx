@@ -20,7 +20,7 @@ const SocialSideBar = () => {
                 </div>
             </a>
 
-            <a href="mailto:aashutosh@gmail.com" target="_blank">
+            <a href="mailto:aashutosh282@gmail.com" target="_blank">
                 <div className="social-links">
                     <p>Email</p>
                     <MdMarkEmailUnread size={25} />
