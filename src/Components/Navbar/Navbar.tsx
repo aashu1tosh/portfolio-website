@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className={`nav-full ${sticky ? 'dark-nav' : ''}`}>
 
             <div className="nav-left">
-                {portfolioLabel.title[language]}
+                <Link to='/'>{portfolioLabel.title[language]}</Link>
             </div>
             <div className="nav-middle">
                 <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
