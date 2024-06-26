@@ -3,7 +3,7 @@
     width: 600px;
     height: 300px;
     perspective: 1000px;
-
+    cursor: pointer;
     margin: 20px;
     /* border-radius: 15px; */
 }
@@ -36,7 +36,7 @@
 .flip-card-front {
     background-color: transparent;
     color: black;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 /* .flip-card-front img {
@@ -71,24 +71,31 @@ h3 {
     text-align: center;
     font-size: 1.5rem;
     left: 50%;
+    transform: translateX(-50%);
     bottom: 0;
 }
 
 .github-link a {
     text-decoration: none;
     color: inherit;
+    padding: 0px 10px;
+}
+
+.github-link a:hover {
+    color: red;
 }
 
 /* image overlay */
 .flip-card-front-img-container {
     position: relative;
     display: inline-block;
+    height: 100%;
 }
 
 .flip-card-front-img-container img {
     display: block;
     width: 99%;
-    height: auto;
+    height: 100%;
 }
 
 .overlay-text {
@@ -101,4 +108,11 @@ h3 {
     padding: 10px 20px;
     font-size: 20px;
     text-align: center;
+}
+
+@media (max-width: 750px) {
+    .flip-card {
+        width: 80vw;
+        /* height: 30vh; */
+    }
 }
