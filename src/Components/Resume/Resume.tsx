@@ -54,12 +54,12 @@ const Resume = () => {
             <h3>{portfolioLabel.experience[language]}</h3>
           </div>
           <div className="education-detail">
-            <div data-aos="zoom-in-up" data-aos-once="true" className="education-box">
+            {/* <div data-aos="zoom-in-up" data-aos-once="true" className="education-box">
               <p>{portfolioLabel?.experience2Date[language]}</p>
               <h4>{portfolioLabel?.experience2Role[language]}</h4>
               <p>{portfolioLabel?.experience2Description[language]}</p>
               <p>{portfolioLabel?.experience2Company[language]}</p>
-            </div>
+            </div> */}
 
             <div data-aos="zoom-in-up" data-aos-once="true" className="education-box">
               <p>{portfolioLabel?.experience1Date[language]}</p>
