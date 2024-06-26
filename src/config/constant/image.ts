@@ -2,6 +2,7 @@ import auto from '../../assets/auto.png'
 import cplus from '../../assets/c++.png'
 import c from '../../assets/c.png'
 import css from '../../assets/css.png'
+import ecommerce from '../../assets/ecommerce.png'
 import git from '../../assets/git.png'
 import html from '../../assets/html.png'
 import js from '../../assets/js.png'
@@ -9,15 +10,16 @@ import linux from '../../assets/linux.png'
 import mongo from '../../assets/monogo.png'
 import mysql from '../../assets/mysql.png'
 import nepal from '../../assets/nepal.png'
+import newsApp from '../../assets/news-app.png'
 import node from '../../assets/node.png'
 import python from '../../assets/python.png'
 import react from '../../assets/react.png'
+import sitemark from '../../assets/sitemark.png'
 import me from '../../assets/thin.png'
 import typescript from '../../assets/typescript.png'
 import usa from '../../assets/usa.png'
 import weatherapp from '../../assets/weatherapp.png'
 import youtubeClone from '../../assets/youtube-clone.png'
-import newsApp from '../../assets/news-app.png'
 
 
 export const image = {
@@ -40,5 +42,7 @@ export const image = {
     auto,
     weatherapp,
     youtubeClone,
-    newsApp
+    newsApp,
+    sitemark,
+    ecommerce
 }
