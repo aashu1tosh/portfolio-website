@@ -15,6 +15,20 @@ const Projects = () => {
 
             <div className="projects">
 
+
+
+                <ProjectCard
+                    title={"Discussion Forum"}
+                    language={"React Node Express Typescript Postgres GraphQL"}
+                    propsImage={image?.graphql}
+                    githubLink={["https://github.com/aashu1tosh/discussion-forum-graphql--backend"]}
+                    list={["Full Stack PERN Application",
+                        "Implemented user authentication, tokenization",
+                        "Utilized Postgres for database management with TypeORM and Git for version control.",
+                        "Enhanced my GraphQL(SDL) skills",
+                    ]}
+                />
+
                 <ProjectCard
                     title={"E-Commerce"}
                     language={"React Node Express Typescript Postgres"}
@@ -25,6 +39,21 @@ const Projects = () => {
                         "Utilized Postgres for database management with TypeORM and Git for version control.",
                         "Understood passing data through headers",
                         "Developed this with enhance backend skills"
+                    ]}
+                />
+
+                <ProjectCard
+                    title={"Travel Website"}
+                    language={"React Node Express Typescript Postgres"}
+                    propsImage={image?.travel}
+                    githubLink={["https://github.com/aashu1tosh/travel-project--frontend",
+                        "https://github.com/aashu1tosh/travel-project-backend"
+                    ]}
+                    list={["Full Stack PERN Application",
+                        "Implemented user authentication, tokenization",
+                        "Utilized Postgres for database management with TypeORM and Git for version control.",
+                        "Enabled administrators to efficiently manage and update key website elements. Features include adding and editing testimonials, managing team members, and modifying the hero image, slogan, and logo.",
+                        "Developed this with enhance backend and frontend skills"
                     ]}
                 />
 
