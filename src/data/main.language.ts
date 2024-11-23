@@ -121,20 +121,20 @@ export const portfolioLabel: LabelType = {
     },
 
     experience2Date: {
-        en: "May 2024 - Current",
+        en: "May 2024 - Present",
         ne: "वैशाख २०८१ - वर्तमान"
     },
     experience2Role: {
-        en: "Software Engineer Internship",
-        ne: "सफ्टवेयर इन्जिनियर इन्टर्नशिप"
+        en: "Software Engineer",
+        ne: "सफ्टवेयर इन्जिनियर"
     },
     experience2Description: {
-        en: "I acquired front-end development skills with Reactjs at Cliffbyte.I also used PostgreSQL and nosql Mongo DB to manage data storage effectively and Node.js with Express to construct robust and secure backend applications with REST APIs.",
-        ne: "Cliffbyte मा, मैले Reactjs सिकें। मैले नोड र एक्सप्रेससँग ब्याकएन्ड अनुप्रयोगहरू पनि विकास गरें, र PostgreSQL सँग डाटा भण्डारण व्यवस्थित गरें"
+        en: "Built full-stack applications with PostgreSQL, React, and Node.js, focusing on designing efficient databases, developing secure RESTful APIs, and creating dynamic, user-friendly interfaces for seamless integration and performance.",
+        ne: "PostgreSQL, React, र Node.js प्रयोग गरेर पूर्ण-स्ट्याक एप्लिकेसनहरू निर्माण गरेको छु, जसमा प्रभावकारी डाटाबेस डिजाइन, सुरक्षित RESTful APIs विकास, र गतिशील, प्रयोगकर्ता-मैत्री इन्टरफेसहरू सिर्जना गरेर सहज एकीकरण र कार्यसम्पादनमा ध्यान दिइएको छ।"
     },
     experience2Company: {
-        en: "CliffByte",
-        ne: "क्लिफबाइट"
+        en: "Information Care Pvt. Ltd.",
+        ne: "इनफर्मेशन केयर प्रा. लि."
     },
     yourName: {
         en: "Your Name",

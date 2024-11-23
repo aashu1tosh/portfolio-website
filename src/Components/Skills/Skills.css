@@ -25,6 +25,7 @@
     width: 50px;
     font-size: 0.8rem;
     cursor: pointer;
+    backdrop-filter: blur(9px);
 }
 
 .skill:hover {

@@ -21,6 +21,14 @@ const Skills = () => {
                     <p>Javascript</p>
                 </div>
                 <div className="skill">
+                    <img src={image?.typescript} alt="6" />
+                    <p>Typescript</p>
+                </div>
+                <div className="skill">
+                    <img src={image?.java} alt="2" />
+                    <p>Java</p>
+                </div>
+                <div className="skill">
                     <img src={image?.git} alt="3" />
                     <p>Git</p>
                 </div>
@@ -32,9 +40,9 @@ const Skills = () => {
                     <img src={image?.node} alt="5" />
                     <p>NodeJS</p>
                 </div>
-                <div className="skill">
-                    <img src={image?.typescript} alt="6" />
-                    <p>Typescript</p>
+                <div className="skill" >
+                    <img src={image?.spring} alt="5" />
+                    <p>Spring Boot</p>
                 </div>
                 <div className="skill">
                     <img src={image?.html} alt="7" />
@@ -53,8 +61,8 @@ const Skills = () => {
                     <p>MongoDB</p>
                 </div>
                 <div className="skill">
-                    <img src={image?.mysql} alt="21" />
-                    <p>MySql</p>
+                    <img src={image?.postgres} alt="21" />
+                    <p>PostgreSQL</p>
                 </div>
 
                 <div className="skill">
