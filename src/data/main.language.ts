@@ -121,7 +121,7 @@ export const portfolioLabel: LabelType = {
     },
 
     experience2Date: {
-        en: "May 2024 - Present",
+        en: "April 2024 - Present",
         ne: "वैशाख २०८१ - वर्तमान"
     },
     experience2Role: {
